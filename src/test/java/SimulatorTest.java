@@ -32,6 +32,6 @@ public class SimulatorTest {
         add.click();
         */
 
-        System.out.println("Testing travis integration");
+        System.out.println("Testing travis integration 2");
     }
 }
