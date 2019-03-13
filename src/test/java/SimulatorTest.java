@@ -1,0 +1,33 @@
+import io.appium.java_client.ios.IOSDriver;
+import io.appium.java_client.ios.IOSElement;
+import org.junit.Test;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+public class SimulatorTest {
+
+    @Test
+    public void luncher() throws MalformedURLException {
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("automationName",    "XCUITest");
+        capabilities.setCapability("platformName", "iOS");
+        capabilities.setCapability("platformVersion", "12.1");
+        capabilities.setCapability("deviceName", "iPad Air 2");
+        capabilities.setCapability("udid",  "");
+        capabilities.setCapability("bundleId", "com.apple.reminders");
+        capabilities.setCapability("noReset", "true");
+        capabilities.setCapability("useNewWDA", "false");
+        URL url = new URL("http://0.0.0.0:4723/wd/hub");
+        IOSDriver driver = new IOSDriver(url, capabilities);
+
+
+        driver.closeApp();
+        driver.launchApp();
+        System.out.println("test reminder");
+        IOSElement add = (IOSElement) driver.findElementByAccessibilityId("Add List");
+        add.click();
+    }
+}
