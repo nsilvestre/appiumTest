@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be516d1d-15c1-4876-b52e-c5bf165803b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LunchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LunchTestSimulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,10 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/test-classes/SimulatorTest.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="150">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding>
                 <element signature="e#0#369#0" expanded="true" />
               </folding>
@@ -51,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="15">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -80,6 +79,7 @@
         <option value="$PROJECT_DIR$/src/test/java/LunchTestSimulator.java" />
         <option value="$PROJECT_DIR$/travis.yml" />
         <option value="$PROJECT_DIR$/src/test/java/SimulatorTest.java" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -159,7 +159,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552488957363" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552576504525" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -235,9 +235,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LunchTestSimulator_luncher - 2019.02.08 at 09h 46m 58s.xml">
-      <configuration name="LunchTestSimulator.luncher" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LunchTestSimulator_luncher - 2019.02.08 at 09h 48m 16s.xml">
       <configuration name="LunchTestSimulator.luncher" configurationId="JUnit" />
     </history-entry>
@@ -265,13 +262,16 @@
     <history-entry file="LunchTestSimulator_luncher - 2019.03.13 at 11h 08m 14s.xml">
       <configuration name="LunchTestSimulator.luncher" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LunchTest - 2019.03.13 at 11h 56m 02s.xml">
+      <configuration name="LunchTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-23" y="-924" width="1400" height="757" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72869956" visible="true" weight="0.27540502" />
-      <window_info id="Structure" order="1" sideWeight="0.27130044" side_tool="true" visible="true" weight="0.27540502" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7293233" visible="true" weight="0.27540502" />
+      <window_info id="Structure" order="1" sideWeight="0.2706767" side_tool="true" visible="true" weight="0.27540502" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -281,14 +281,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32932332" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32932332" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32932332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -317,13 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AutomationTest.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -339,10 +332,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/target/test-classes/SimulatorTest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="150">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="e#0#369#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
