@@ -1,6 +1,9 @@
 language: java
 os: osx
 
+before_install:
+  - npm i -g npm@version-number
+
 install:
   - npm install -g appium
   - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
