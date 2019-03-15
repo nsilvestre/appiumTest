@@ -2,9 +2,10 @@ language: java
 os: osx
 
 before_install:
-  - npm i -g npm@version-number
+  - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  - brew uninstall node
+  - brew install node
 
 install:
   - npm install -g appium
-  - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   - brew install carthage
