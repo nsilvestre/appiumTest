@@ -13,9 +13,6 @@ public class SimulatorTest {
     @Test
     public void luncher() throws MalformedURLException {
 
-        AppiumDriverLocalService appiumDriverLocalService = AppiumDriverLocalService.buildDefaultService();
-        appiumDriverLocalService.start();
-
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("automationName",    "XCUITest");
         capabilities.setCapability("platformName", "iOS");
@@ -24,6 +21,8 @@ public class SimulatorTest {
         capabilities.setCapability("bundleId", "com.apple.reminders");
         capabilities.setCapability("noReset", "true");
         capabilities.setCapability("useNewWDA", "false");
+
+
         URL url = new URL("http://0.0.0.0:4723/wd/hub");
         IOSDriver driver = new IOSDriver(url, capabilities);
 
@@ -36,6 +35,5 @@ public class SimulatorTest {
 
         System.out.println("Testing travis integration - Adding os: osx");
 
-        appiumDriverLocalService.stop();
     }
 }
