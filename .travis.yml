@@ -1,5 +1,5 @@
+osx_image: xcode10.1
 language: java
-os: osx
 
 before_install:
   - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
