@@ -9,4 +9,4 @@ before_install:
 
 install:
   - npm install -g appium
-  - brew install carthage
+  - brew upgrade carthage

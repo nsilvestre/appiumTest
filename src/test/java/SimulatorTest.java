@@ -11,13 +11,12 @@ public class SimulatorTest {
 
     @Test
     public void luncher() throws MalformedURLException {
-        /*
+
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("automationName",    "XCUITest");
         capabilities.setCapability("platformName", "iOS");
         capabilities.setCapability("platformVersion", "12.1");
         capabilities.setCapability("deviceName", "iPad Air 2");
-        capabilities.setCapability("udid",  "");
         capabilities.setCapability("bundleId", "com.apple.reminders");
         capabilities.setCapability("noReset", "true");
         capabilities.setCapability("useNewWDA", "false");
@@ -30,7 +29,7 @@ public class SimulatorTest {
         System.out.println("test reminder");
         IOSElement add = (IOSElement) driver.findElementByAccessibilityId("Add List");
         add.click();
-        */
+
 
         System.out.println("Testing travis integration - Adding os: osx");
     }
