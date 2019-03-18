@@ -1,5 +1,6 @@
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.IOSElement;
+import io.appium.java_client.service.local.AppiumDriverLocalService;
 import org.junit.Test;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -11,6 +12,9 @@ public class SimulatorTest {
 
     @Test
     public void luncher() throws MalformedURLException {
+
+        AppiumDriverLocalService appiumDriverLocalService = AppiumDriverLocalService.buildDefaultService();
+        appiumDriverLocalService.start();
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("automationName",    "XCUITest");
@@ -30,7 +34,8 @@ public class SimulatorTest {
         IOSElement add = (IOSElement) driver.findElementByAccessibilityId("Add List");
         add.click();
 
-
         System.out.println("Testing travis integration - Adding os: osx");
+
+        appiumDriverLocalService.stop();
     }
 }

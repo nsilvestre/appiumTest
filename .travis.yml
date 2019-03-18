@@ -10,7 +10,3 @@ before_install:
 install:
   - npm install -g appium
   - brew upgrade carthage
-
-script:
-  - appium
-  - mvn test
