@@ -13,4 +13,5 @@ install:
 
 script:
   - appium &
+  - open -a Simulator.app
   - mvn test
