@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be516d1d-15c1-4876-b52e-c5bf165803b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/SimulatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimulatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,17 +21,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="206">
+              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SimulatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+            <state relative-caret-position="123">
+              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            <state relative-caret-position="165">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -62,12 +63,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/LunchTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LunchTestSimulator.java" />
         <option value="$PROJECT_DIR$/travis.yml" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/test/java/SimulatorTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -79,8 +80,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-23" />
-    <option name="y" value="-924" />
+    <option name="x" value="-33" />
+    <option name="y" value="-964" />
     <option name="width" value="1400" />
     <option name="height" value="757" />
   </component>
@@ -147,7 +148,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552576700174" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552920499727" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LunchTest">
+  <component name="RunManager" selected="JUnit.SimulatorTest">
     <configuration name="LunchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutomationTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -185,7 +186,9 @@
       <module name="AutomationTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SimulatorTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,12 +203,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.LunchTest" />
+      <item itemvalue="JUnit.LunchTest.luncher" />
+      <item itemvalue="JUnit.SimulatorTest" />
+      <item itemvalue="JUnit.SimulatorTest.luncher" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimulatorTest" />
         <item itemvalue="JUnit.LunchTest" />
         <item itemvalue="JUnit.SimulatorTest.luncher" />
         <item itemvalue="JUnit.LunchTest.luncher" />
-        <item itemvalue="JUnit.SimulatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -223,15 +232,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LunchTestSimulator_luncher - 2019.02.08 at 09h 48m 16s.xml">
-      <configuration name="LunchTestSimulator.luncher" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LunchTestSimulator_luncher - 2019.03.13 at 10h 30m 46s.xml">
-      <configuration name="LunchTestSimulator.luncher" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LunchTestSimulator_luncher - 2019.03.13 at 10h 33m 01s.xml">
-      <configuration name="LunchTestSimulator.luncher" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LunchTestSimulator_luncher - 2019.03.13 at 10h 43m 33s.xml">
       <configuration name="LunchTestSimulator.luncher" configurationId="JUnit" />
     </history-entry>
@@ -253,13 +253,22 @@
     <history-entry file="LunchTest - 2019.03.13 at 11h 56m 02s.xml">
       <configuration name="LunchTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LunchTest - 2019.03.18 at 11h 27m 54s.xml">
+      <configuration name="LunchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimulatorTest - 2019.03.18 at 11h 28m 24s.xml">
+      <configuration name="SimulatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimulatorTest - 2019.03.18 at 11h 30m 12s.xml">
+      <configuration name="SimulatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-23" y="-924" width="1400" height="757" extended-state="0" />
+    <frame x="-33" y="-964" width="1400" height="757" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7293233" visible="true" weight="0.27540502" />
-      <window_info id="Structure" order="1" sideWeight="0.2706767" side_tool="true" visible="true" weight="0.27540502" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72869956" visible="true" weight="0.18851252" />
+      <window_info id="Structure" order="1" sideWeight="0.27130044" side_tool="true" visible="true" weight="0.18851252" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -268,8 +277,8 @@
       <window_info id="Favorites" order="7" sideWeight="0.50224215" side_tool="true" weight="0.2496318" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32932332" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32932332" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -288,13 +297,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LunchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -308,13 +310,6 @@
     <entry file="file://$PROJECT_DIR$/AutomationTest.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/test-classes/SimulatorTest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -325,13 +320,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SimulatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+        <state relative-caret-position="123">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
