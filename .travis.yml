@@ -18,7 +18,6 @@ install:
   - pod install
   - xcodebuild -sdk iphonesimulator -workspace ToDoList.xcworkspace -scheme ToDoList -configuration Release clean build -derivedDataPath builddata/
   - cd ..
-  - cd appiumTest
 
 script:
   - appium &
