@@ -19,7 +19,7 @@ public class SimulatorTest {
         capabilities.setCapability("platformVersion", "12.1");
         capabilities.setCapability("deviceName", "iPad Air 2");
       //  capabilities.setCapability("bundleId", "com.apple.reminders");
-        capabilities.setCapability("app", "ToDoList/ToDoList-iOS/builddata/Build/Products/Release-iphonesimulator/ToDoList.app");
+        capabilities.setCapability("app", "/Users/travis/build/nsilvestre/ToDoList/ToDoList-iOS/builddata/Build/Products/Release-iphonesimulator/ToDoList.app");
         capabilities.setCapability("noReset", "true");
         capabilities.setCapability("useNewWDA", "false");
 
