@@ -7,6 +7,7 @@ before_install:
   - brew uninstall node
   - brew install node
   - rvm --default use 2.4.5
+  - git clone https://github.com/nsilvestre/ToDoList.git
 
 install:
   - npm install -g appium
@@ -16,7 +17,6 @@ install:
   - pod install
 
 script:
-  - git clone https://github.com/nsilvestre/ToDoList.git
   - xcodebuild -sdk iphonesimulator -workspace ToDoList.xcworkspace -scheme ToDoList -configuration Release clean build -derivedDataPath builddata/
   - appium &
   - mvn test
