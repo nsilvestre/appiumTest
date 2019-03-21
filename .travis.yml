@@ -7,7 +7,9 @@ before_install:
   - brew uninstall node
   - brew install node
   - rvm --default use 2.4.5
+  - pwd
   - git clone https://github.com/nsilvestre/ToDoList.git
+  - pwd
 
 install:
   - npm install -g appium
@@ -21,4 +23,5 @@ install:
 
 script:
   - appium &
+  - pwd
   - mvn test
