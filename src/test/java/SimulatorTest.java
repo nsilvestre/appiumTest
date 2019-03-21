@@ -18,7 +18,8 @@ public class SimulatorTest {
         capabilities.setCapability("platformName", "iOS");
         capabilities.setCapability("platformVersion", "12.1");
         capabilities.setCapability("deviceName", "iPad Air 2");
-        capabilities.setCapability("bundleId", "com.apple.reminders");
+      //  capabilities.setCapability("bundleId", "com.apple.reminders");
+        capabilities.setCapability("app", "nsilvestre/ToDoList/ToDoList-iOS/builddata/Build/Products/Release-iphonesimulator/ToDoList.app");
         capabilities.setCapability("noReset", "true");
         capabilities.setCapability("useNewWDA", "false");
 
@@ -29,9 +30,11 @@ public class SimulatorTest {
 
         driver.closeApp();
         driver.launchApp();
+        /*
         System.out.println("test reminder");
         IOSElement add = (IOSElement) driver.findElementByAccessibilityId("Add List");
         add.click();
+        */
 
         System.out.println("Testing travis integration - Adding os: osx");
 

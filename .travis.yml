@@ -6,11 +6,17 @@ before_install:
   - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   - brew uninstall node
   - brew install node
+  - rvm --default use 2.4.5
 
 install:
   - npm install -g appium
   - brew upgrade carthage
+  - gem install cocoapods
+  - pod repo update
+  - pod install
 
 script:
+  - git clone https://github.com/nsilvestre/ToDoList.git
+  - xcodebuild -sdk iphonesimulator -workspace ToDoList.xcworkspace -scheme ToDoList -configuration Release clean build -derivedDataPath builddata/
   - appium &
   - mvn test
